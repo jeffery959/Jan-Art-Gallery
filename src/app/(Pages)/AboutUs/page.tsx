@@ -4,7 +4,7 @@ import Image from 'next/image'
 import FAQDeck from '@/app/Components/FAQDeck'
 import ContactSec from '@/app/Components/ContactSec'
 import { ThemeContext } from '@/app/Components/GlobalContext'
-const page = () => {
+const Page = () => {
   const {ContactOn,toggleContact} = useContext(ThemeContext)
   return (
     <div className='w-full flex flex-col justify-center'>
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

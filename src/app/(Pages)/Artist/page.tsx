@@ -1,6 +1,6 @@
 import ArtistCard from "@/app/Components/ArtistCard"
 
-const page = () => {
+const Page = () => {
   return (
     <div className=' w-full flex flex-col items-center'>
         <h3 className='Page_Heading'>
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

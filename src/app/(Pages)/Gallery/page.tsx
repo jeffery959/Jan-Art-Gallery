@@ -1,6 +1,6 @@
 import React from 'react'
 import GalleryImage from '@/app/Components/GalleryImage'
-const page = () => {
+const Page = () => {
   return (
     <div className='h-full lg:pb-24 pb-12  '>
         <h3 className="Page_Heading">Gallery</h3>
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
