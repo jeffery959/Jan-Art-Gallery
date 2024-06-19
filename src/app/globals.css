@@ -16,18 +16,78 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.CommonFlex{
+  @apply flex justify-between items-center;
+}
+.Page_Heading{
+  @apply xl:text-5xl lg:text-4xl font-bold  md:text-3xl text-2xl lg:my-24 md:my-12 my-8 text-gray-700 w-full text-center;
+}
+.Gallery_Grid_Area{
+  display:grid;
+  height:1500px;
+  max-width:80vw;
+
+  grid-template-areas: 
+            "a a a a a b b b b"
+            "a a a a a b b b b"
+            "a a a a a b b b b"
+            "a a a a a b b b b"
+            "c c c c d d d d d"
+            "c c c c d d d d d"
+            "c c c c d d d d d"
+            "c c c c d d d d d"
+            "c c c c d d d d d"
+            "c c c c e e e e e"
+            "f f f f e e e e e"
+            "f f f f e e e e e"
+            "f f f f e e e e e"
+            "f f f f g g g g g";
+            grid-gap: 5px;
+ @apply gap-3 ;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.Itm-1,.Itm-2,.Itm-3,.Itm-4,.Itm-5,.Itm-6{
+  @apply w-full h-full rounded-lg;
+}
+.Itm-1{
+  grid-area: a;
+  
+}
+.Bg-Frame{
+  @apply relative w-full h-full
+}
+.Itm-2{
+  grid-area: b;
+  
+  
+}
+.Itm-3{
+  grid-area: c;
+  
+  
+}
+.Itm-4{
+  grid-area: d;
+  
+  
+}
+.Itm-5{
+  grid-area: e;
+  
+  
+}
+.Itm-6{
+  
+  grid-area: f;
+  
+}
+
+@media (max-width:1024px){
+  .Gallery_Grid_Area{
+    display:grid;
+    height:100vw;
+ 
+  
   }
 }
