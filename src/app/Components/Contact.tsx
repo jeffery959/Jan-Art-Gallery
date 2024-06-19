@@ -29,15 +29,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className='Box'>
-                    <img src="Icons\Email.svg" alt="" />
+                    <Image width={20} height={20} src="Icons\Email.svg" alt="" />
                     <p>aaronjeffery529@gmail.com</p>
                   </div>
                   <div className='Box special'>
-                    <img src="Icons\Phone.svg" alt="" />
+                    <Image width={20} height={20} src="Icons\Phone.svg" alt="" />
                      <p>+1 (929)-608-4670</p>
                   </div>
                   <div className='Box'>
-                    <img src="Icons\Location.svg" alt="" />
+                    <Image width={20} height={20} src="Icons\Location.svg" alt="" />
                      1743 fulton Ave
                   </div>
 

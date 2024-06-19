@@ -25,7 +25,8 @@ export const ThemeContext = React.createContext({
                 document.body.style.overflow = 'scroll'
     
             }
-  }, [toggleContact]);
+  }, [ContactOn]);
+
       return(
         <ThemeContext.Provider value={{ContactOn,toggleContact}}>
             {children}

@@ -1,9 +1,6 @@
-"use client"
-import { useContext } from 'react'
 import Image from 'next/image'
 import FAQDeck from '@/app/Components/FAQDeck'
 import ContactSec from '@/app/Components/ContactSec'
-import { ThemeContext } from '@/app/Components/GlobalContext'
 const Page = () => {
   return (
     <div className='w-full flex flex-col justify-center'>
