@@ -1,1 +1,1 @@
-export const RouteUrl ='https://jan-art-gallery-294uf0dg1-jeffery959s-projects.vercel.app/'
+export const RouteUrl ='https://jan-art-gallery-jeffery959s-projects.vercel.app/'
