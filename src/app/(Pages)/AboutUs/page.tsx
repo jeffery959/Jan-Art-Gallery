@@ -5,7 +5,6 @@ import FAQDeck from '@/app/Components/FAQDeck'
 import ContactSec from '@/app/Components/ContactSec'
 import { ThemeContext } from '@/app/Components/GlobalContext'
 const Page = () => {
-  const {ContactOn,toggleContact} = useContext(ThemeContext)
   return (
     <div className='w-full flex flex-col justify-center'>
         <h3 className='Page_Heading'>About Us</h3>
