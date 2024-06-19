@@ -1,8 +1,9 @@
 import Button from "@/app/Components/Button";
 import Image from "next/image";
 import Link from "next/link";
-
+import { RouteUrl } from "@/app/Utils/data";
 export default function Home() {
+  
   return (
     <main className="mb-10 flex  flex-col">
       <section className="Section-1 w-full px-32 py-10 xl:px-40 flex md:justify-between md:flex-row  flex-col justify-center items-center ">
@@ -11,7 +12,7 @@ export default function Home() {
         <h3 className="xl:text-6xl lg:text-4xl font-extralight text-primary md:text-3xl text-2xl">Hi I’m Jane</h3>
         <h2 className="xl:text-8xl lg:text-7xl text-5xl font-bold  text-gray-800 text-center py-8">Professional Photographer </h2>
         <p className="text-center text-gray-500 pb-8 font-normal lg:w-10/12 xl:w-7/12  md:text-base text-xs">I take professional photos of people and events like weddings,prom and etc. I deliver with high quality photos and on time</p>
-        <Link href={'http://localhost:3000/Gallery'}>
+        <Link href={RouteUrl+'Gallery'}>
         <Button txt="Check Gallery" Icon="/Icons/Link.svg"/>
         </Link>
         </div>
