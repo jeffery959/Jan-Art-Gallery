@@ -45,6 +45,7 @@ Mobile View:
 <img width="183" height="415" alt="Janes_art_Mobile" src="https://github.com/user-attachments/assets/c9b90c23-848a-4fd1-ac8d-055e6f654bff" />
 
 
+
 📂 Project Structure
 
 
