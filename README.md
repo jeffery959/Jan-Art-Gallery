@@ -20,11 +20,12 @@ Styling: Tailwind CSS
 Deployment: Vercel / Netlify / GitHub Pages
 
 🖼️ Screenshots
-Desktop View
-<img width="1689" height="839" alt="Screenshot 2026-02-01 200809" src="https://github.com/user-attachments/assets/e434bf42-013e-4928-b8ab-b2d73eac0aad" />
 
-Mobile View
-<img width="213" height="495" alt="Janes_art_Mobile" src="https://github.com/user-attachments/assets/c9b90c23-848a-4fd1-ac8d-055e6f654bff" />
+Desktop View:
+<img width="849" height="339" alt="Screenshot 2026-02-01 200809" src="https://github.com/user-attachments/assets/e434bf42-013e-4928-b8ab-b2d73eac0aad" />
+
+Mobile View:
+<img width="133" height="395" alt="Janes_art_Mobile" src="https://github.com/user-attachments/assets/c9b90c23-848a-4fd1-ac8d-055e6f654bff" />
 
 
 📂 Project Structure
