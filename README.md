@@ -5,19 +5,34 @@ A photo gallery application.
 Live Demo: https://jan-art-gallery-jeffery959s-projects.vercel.app  | Report Bug : aaronjeffery529@gmail.com
 
 📖 Table of Contents
+
 Features
-Tech Stack  
+
+Tech Stack 
+
 Screenshots
+
 Project Structure
+
 Lincese
 
 ✨ Features
+
 Responsive Grid: Optimized for desktop, tablet, and mobile viewing.
 
 💻 Tech Stack
+
+
 Frontend: React.js / Next.js
+
+
 Styling: Tailwind CSS
+
+
 Deployment: Vercel / Netlify / GitHub Pages
+
+
+
 
 🖼️ Screenshots
 
@@ -34,12 +49,20 @@ Mobile View:
 
 
 ├── public/          # Static assets (icons, Images)
+
 ├── src/app/
  	├── (Pages)/       # Pages (Home, Gallery, Artist, AboutUs)
+	
  │	├── Components/  # Reusable UI (Gallery, Modal, Navbar)
+ 
  │	├── UTILS/        # Types data
+ 
  │	└── ./      # Global CSS and Tailwind config
+ 
  └── 
+
+
+
 
 
 📄 License
