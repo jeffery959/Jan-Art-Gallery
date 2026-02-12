@@ -62,6 +62,6 @@ Mobile View:
 
 Distributed under the MIT License. See LICENSE for more information. 
 
-Created by Jeffrey Kwaku Konadu Aaron   Portfolio: https://porfolio-wine-three.vercel.app   LinkedIn: https://www.linkedin.com/in/jeffery-aaron-a0b077244 
+Created by Jeffrey Kwaku Konadu Aaron   Portfolio: https://updatedportfolio-bay-three.vercel.app/Homepage   LinkedIn: https://www.linkedin.com/in/jeffery-aaron-a0b077244 
 
 
