@@ -34,11 +34,11 @@ const Contact = () => {
                   </div>
                   <div className='Box special'>
                     <Image width={20} height={20} src="Icons\Phone.svg" alt="" />
-                     <p>+1 (929)-608-4670</p>
+                     <p>+1 (646)-627-0936</p>
                   </div>
                   <div className='Box'>
                     <Image width={20} height={20} src="Icons\Location.svg" alt="" />
-                     1743 fulton Ave
+                      Fulton Ave
                   </div>
 
                 </div>
